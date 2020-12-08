@@ -1,3 +1,16 @@
+package de.mccrimehd.citybuild.heads;
+
+import com.mojang.authlib.GameProfile;
+import com.mojang.authlib.properties.Property;
+import de.mccrimehd.citybuild.CityBuild;
+import de.mccrimehd.citybuild.utils.SkullBuilder;
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.SkullMeta;
+
+import java.lang.reflect.Field;
+import java.util.UUID;
+
 public class Head {
 
     private String name;
